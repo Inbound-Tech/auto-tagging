@@ -41,4 +41,4 @@ def get_tags():
     return jsonify({'tags': get_tags})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=5001)
